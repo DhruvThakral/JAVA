@@ -18,9 +18,9 @@ class Second {
         long num5 = 1111111111111111111L;
         System.out.println(num5);
 
-        double num6 = 99999; // or 99999d
+        double num6 = 99999; // or 99999d 
         System.out.println(num6);
 
-
+        
     }
 }
