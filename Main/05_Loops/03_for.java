@@ -6,7 +6,7 @@ class LPU {
 
         int i=0;
         for(i = 1; i < 109; i++){
-            System.out.println("Ram Ram" + i);
+            System.out.println("Ram Ram " + i);
         }
     }
     
