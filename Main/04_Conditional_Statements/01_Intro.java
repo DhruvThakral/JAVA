@@ -36,7 +36,7 @@ class LPU {
         // if(num%2 == 0) System.out.println("Even");
         // else System.out.println("Odd");
 
-//-----------------------------> Ternary Operator
+//-----------------------------> Ternary Operator 
         // output = num%2 == 0 ? 0 : 1;
 
         String output = num%2 == 0 ? "Even" : "Odd"; 
