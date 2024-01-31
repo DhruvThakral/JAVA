@@ -80,9 +80,53 @@
 //    0 ->  |  5 |  3  |  9 |
 //    1 ->  |  7 |  8  |  2 |
 //    2 ->  |  1 |  6  |  4 |
-class LPU {
-    public static void main(String args[]) {
-        int arr[][] = { { 5, 3, 9 }, { 7, 8, 2 }, { 1, 6, 4 } };
-        System.out.println((arr[0][0]));
+// class LPU {
+//     public static void main(String args[]) {
+//         int arr[][] = { { 5, 3, 9 }, { 7, 8, 2 }, { 1, 6, 4 } };
+//         System.out.println((arr[2][2]));
+//     }
+// }
+
+// Iterating the multi dimensional Array
+// class LPU{
+//     public static void main(String args[]){
+//         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+//         for(int row = 0; row < arr.length; row++){
+//             for(int col = 0; col<arr[0].length; col++ ){
+//                 System.out.print(arr[row][col] + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+//Printing only first and last row of matrix
+// class LPU{
+//     public static void main(String args[]){
+//         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+//             for(int row=0; row< arr.length;row++){
+//                 for(int col = 0; col<arr[0].length;col++)
+//                 if(row==0 || row == arr.length-1){
+//                         System.out.print(arr[row][col] + " ");
+//                 }
+//                 System.out.println(); }      
+//         }
+//     }
+
+
+//Printing only border elements of matrix and in place of inner elements you have to print space.
+class LPU{
+    public static void main(String args[]){
+        int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+            for(int row=0; row< arr.length;row++){
+                for(int col = 0; col<arr[0].length;col++)
+                if(row==0 || row == arr.length-1 || col==0 || col == arr.length-1 ){
+                    System.out.print(arr[row][col] + " ");
+                }else{
+                    System.out.print("  ");
+                }
+                System.out.println(); }      
+        }
     }
-}
+
+
