@@ -23,3 +23,14 @@
 // Same for others data type.
 
 //If two or more operators of equal precedence are used , the expression evaluation happens from left to right.
+
+// 1. JVM (Java Virtual Machine)
+//     It provides a runtime environment in which Java bytecode can be executed. It can also run those progrms which are written in other languages and compiled to Java bytecode.
+
+// 2. JRE (Java Runtime Environment)
+//     It is a set of software tools and libraries + other files which are used for developing and it provides the runtime environment.
+
+// 3. JDK (Java Development Kit)
+//     It helps us to develop Java appliations, it contains JRE + development tools.
+
+// JVM JRE JDK are platform dependent because the configuration of each OS is different however JAva is platform independent.
