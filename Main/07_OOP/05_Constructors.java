@@ -63,7 +63,7 @@ class LPU{
 
     - Rules
     - Constructor name must be same as its class name
-    - Constructor should have no erturn type
+    - Constructor should have no return type
  */
 
 

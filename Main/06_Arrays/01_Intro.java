@@ -49,18 +49,18 @@
 // Question: Create an array containing roll numbers of your 10 friends , all
 // the friends having even roll number will be printed on console and ignore the
 // odd roll numbers.
-// class LPU {
-// public static void main(String args[]) {
-// int arr[] = { 10, 22, 13, 41, 52, 66, 27, 81, 19, 88 };
-// for (int num : arr) {
-// if (num % 2 != 0)
-// continue;
-// {
-// System.out.println(num);
-// }
-// }
-// }
-// }
+class LPU {
+    public static void main(String args[]) {
+        int arr[] = { 10, 22, 13, 41, 52, 66, 27, 81, 19, 88 };
+        for (int num : arr) {
+            if (num % 2 != 0)
+                continue;
+            {
+                System.out.println(num);
+            }
+        }
+    }
+}
 
 // Create an array of 5 floats and calculate their sum and print
 // class LPU {
@@ -74,109 +74,110 @@
 // }
 // }
 
-// ----------------Multi dimensional Arrays   
-//             0    1     2  
-//             |    |     |
-//    0 ->  |  5 |  3  |  9 |
-//    1 ->  |  7 |  8  |  2 |
-//    2 ->  |  1 |  6  |  4 |
+// ----------------Multi dimensional Arrays
+// 0 1 2
+// | | |
+// 0 -> | 5 | 3 | 9 |
+// 1 -> | 7 | 8 | 2 |
+// 2 -> | 1 | 6 | 4 |
 // class LPU {
-//     public static void main(String args[]) {
-//         int arr[][] = { { 5, 3, 9 }, { 7, 8, 2 }, { 1, 6, 4 } };
-//         System.out.println((arr[2][2]));
-//     }
+// public static void main(String args[]) {
+// int arr[][] = { { 5, 3, 9 }, { 7, 8, 2 }, { 1, 6, 4 } };
+// System.out.println((arr[2][2]));
+// }
 // }
 
 // Iterating the multi dimensional Array
 // class LPU{
-//     public static void main(String args[]){
-//         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
-//         for(int row = 0; row < arr.length; row++){
-//             for(int col = 0; col<arr[0].length; col++ ){
-//                 System.out.print(arr[row][col] + " ");
-//             }
-//             System.out.println();
-//         }
-//     }
+// public static void main(String args[]){
+// int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+// for(int row = 0; row < arr.length; row++){
+// for(int col = 0; col<arr[0].length; col++ ){
+// System.out.print(arr[row][col] + " ");
+// }
+// System.out.println();
+// }
+// }
 // }
 
-//Printing only first and last row of matrix
+// Printing only first and last row of matrix
 // class LPU{
-//     public static void main(String args[]){
-//         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
-//             for(int row=0; row< arr.length;row++){
-//                 for(int col = 0; col<arr[0].length;col++)
-//                 if(row==0 || row == arr.length-1){
-//                         System.out.print(arr[row][col] + " ");
-//                 }
-//                 System.out.println(); }      
-//         }
-//     }
+// public static void main(String args[]){
+// int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+// for(int row=0; row< arr.length;row++){
+// for(int col = 0; col<arr[0].length;col++)
+// if(row==0 || row == arr.length-1){
+// System.out.print(arr[row][col] + " ");
+// }
+// System.out.println(); }
+// }
+// }
 
-//Printing only border elements of matrix and in place of inner elements you have to print space.
+// Printing only border elements of matrix and in place of inner elements you
+// have to print space.
 // class LPU{
-//     public static void main(String args[]){
-//         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
-//             for(int row=0; row< arr.length;row++){
-//                 for(int col = 0; col<arr[0].length;col++)
-//                 if(row==0 || row == arr.length-1 || col==0 || col == arr.length-1 ){
-//                     System.out.print(arr[row][col] + " ");
-//                 }else{
-//                     System.out.print("  ");
-//                 }
-//                 System.out.println(); }      
-//         }
-//     }
+// public static void main(String args[]){
+// int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+// for(int row=0; row< arr.length;row++){
+// for(int col = 0; col<arr[0].length;col++)
+// if(row==0 || row == arr.length-1 || col==0 || col == arr.length-1 ){
+// System.out.print(arr[row][col] + " ");
+// }else{
+// System.out.print(" ");
+// }
+// System.out.println(); }
+// }
+// }
 
-//Print elements of diagonal and below it and rest print space
+// Print elements of diagonal and below it and rest print space
 // class LPU{
-//         public static void main(String args[]){
-//             int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
-//                 for(int row=0; row< arr.length;row++){
-//                     for(int col = 0; col<arr[0].length;col++)
-//                     if(row>=col){
-//                         System.out.print(arr[row][col] + " ");
-//                     }else{
-//                         System.out.print("  ");
-//                     }
-//                     System.out.println(); }      
-//             }
-//         }
+// public static void main(String args[]){
+// int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+// for(int row=0; row< arr.length;row++){
+// for(int col = 0; col<arr[0].length;col++)
+// if(row>=col){
+// System.out.print(arr[row][col] + " ");
+// }else{
+// System.out.print(" ");
+// }
+// System.out.println(); }
+// }
+// }
 
 // Replace all the negative elements by zero
 // class LPU{
-//         public static void main(String args[]){
-//             int arr[][] = {{3,-5,9},{-1,2,7},{-8,-7,1}};
-//                 for(int row=0; row< arr.length;row++){
-//                     for(int col = 0; col<arr[0].length;col++)
-//                     if((arr[row][col] <0 ) ){
-//                         System.out.print("0 ");
-//                     }else{
-//                         System.out.print(arr[row][col] + " ");
-//                     }
-//                     System.out.println(); }      
-//             }
-//         }
-
-//Print sum of each row
-// class LPU {
-
-//     public static void main(String args[]) {
-//         int arr[][] = { { 3, -5, 9 }, { -1, 2, 7 }, { -8, -7, 1 } };
-
-//         for (int row = 0; row < arr.length; row++) {
-//             int sum = 0;
-//             for (int col = 0; col < arr[0].length; col++) {
-
-//                 sum = sum + arr[row][col];
-
-//             }
-//             System.out.println(sum);
-//         }
-//     }
+// public static void main(String args[]){
+// int arr[][] = {{3,-5,9},{-1,2,7},{-8,-7,1}};
+// for(int row=0; row< arr.length;row++){
+// for(int col = 0; col<arr[0].length;col++)
+// if((arr[row][col] <0 ) ){
+// System.out.print("0 ");
+// }else{
+// System.out.print(arr[row][col] + " ");
+// }
+// System.out.println(); }
+// }
 // }
 
-//Print minimum number of each row
+// Print sum of each row
+// class LPU {
+
+// public static void main(String args[]) {
+// int arr[][] = { { 3, -5, 9 }, { -1, 2, 7 }, { -8, -7, 1 } };
+
+// for (int row = 0; row < arr.length; row++) {
+// int sum = 0;
+// for (int col = 0; col < arr[0].length; col++) {
+
+// sum = sum + arr[row][col];
+
+// }
+// System.out.println(sum);
+// }
+// }
+// }
+
+// Print minimum number of each row
 class LPU {
 
     public static void main(String args[]) {

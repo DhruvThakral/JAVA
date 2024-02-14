@@ -35,4 +35,4 @@
 
 // JVM JRE JDK are platform dependent because the configuration of each OS is different however JAva is platform independent.
 
-// Basics Problems are like : Armstrong , prime numbers , fibonacci series , perfect numbers, 
+// Basics Problems are like : Armstrong , prime numbers , fibonacci series , perfect numbers, palindrome
