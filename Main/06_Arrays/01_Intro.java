@@ -63,16 +63,16 @@ class LPU {
 }
 
 // Create an array of 5 floats and calculate their sum and print
-// class LPU {
-// public static void main(String args[]){
-// float arr[] = {10.2f,10.5f,22.65f,38.97f,89.98f};
-// float sum =0;
-// for(int i=0;i<arr.length;i++){
-// sum = sum + arr[i];
-// }
-// System.out.println("Sum: "+ sum);
-// }
-// }
+class LPU {
+    public static void main(String args[]) {
+        float arr[] = { 10.2f, 10.5f, 22.65f, 38.97f, 89.98f };
+        float sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+        System.out.println("Sum: " + sum);
+    }
+}
 
 // ----------------Multi dimensional Arrays
 // 0 1 2
@@ -81,10 +81,10 @@ class LPU {
 // 1 -> | 7 | 8 | 2 |
 // 2 -> | 1 | 6 | 4 |
 // class LPU {
-// public static void main(String args[]) {
-// int arr[][] = { { 5, 3, 9 }, { 7, 8, 2 }, { 1, 6, 4 } };
-// System.out.println((arr[2][2]));
-// }
+//     public static void main(String args[]) {
+//         int arr[][] = { { 5, 3, 9 }, { 7, 8, 2 }, { 1, 6, 4 } };
+//         System.out.println((arr[2][2]));
+//     }
 // }
 
 // Iterating the multi dimensional Array
