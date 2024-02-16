@@ -8,12 +8,12 @@ class LPU{
 
         System.out.println(obj1.capacity());
 
-        // System.out.println(obj1.insert(3, "AAA"));
-        // System.out.println(obj1.length());
-        // System.out.println(obj1.replace(1, 3, "AAA"));
-        // System.out.println(obj1.delete(0, 2));
-        // System.out.println(obj1.reverse());
+        System.out.println(obj1.insert(3, "AAA"));
+        System.out.println(obj1.length());
+        System.out.println(obj1.replace(1, 3, "AAA"));
+        System.out.println(obj1.delete(0, 2));
+        System.out.println(obj1.reverse());
 
-        // System.out.println(obj1);
+        System.out.println(obj1);
     }
 }
