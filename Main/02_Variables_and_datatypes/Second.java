@@ -12,7 +12,7 @@ class Second {
         byte num4 = 22;
         System.out.println(num4);
 
-        Boolean val = true;
+        Boolean val  = true;
         System.out.println(val);
 
         long num5 = 1111111111111111111L;

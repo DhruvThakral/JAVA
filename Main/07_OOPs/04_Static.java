@@ -1,5 +1,5 @@
 class Student{
-    // Untill and Unless it can not create object of  class it will not take any space
+    // Until and Unless it can not create object of  class it will not take any space
 
     public String name;
     public int id;

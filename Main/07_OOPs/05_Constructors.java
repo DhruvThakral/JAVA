@@ -59,7 +59,7 @@ class LPU{
     - A constructor is a block of code similar to a class.
     - It is called when an instance of a class is created.
     - Every time an object is created using new keyword, at least one constructor is called
-    - Java compiler provides a default constructor by default, this constructor is called is there is no constructor is available in the class
+    - Java compiler provides a default constructor by default, this constructor is called if there is no constructor is available in the class
 
     - Rules
     - Constructor name must be same as its class name

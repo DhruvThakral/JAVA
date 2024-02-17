@@ -1,20 +1,24 @@
 class LPU{
     public static void main(String args[]){
 
-        int a =5 ;
+        //Wrapper classes
 
-        // Integer b = Integer.valueOf(a); // Boxing
+        // int a = 5;
 
-        Integer b = a; // Auto boxing
+        // Integer q = Integer.valueOf(a); //-> boxing
 
-        System.out.println(b);
+        // Integer b = a; // -> auto boxing
 
-        Integer int1 = new Integer(value 5)
+        // System.out.println(b);
 
+
+        // Integer int1 = 5;
+
+        // int int2 = int1.intValue(); // unboxing
+        // int int2 = int1; // auto unboxing
         
     }
 }
-
 
 
 // Wrapper classes provides the mechanism to convert primitive type into objecs and objects to primitive
