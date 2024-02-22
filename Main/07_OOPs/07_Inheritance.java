@@ -91,8 +91,30 @@
 
 //------------------------------------------------------------
 
+// Multiple Inheritance
+// class A{
+//     void test(){
+//         System.out.println("Hello");
+//     }
+// }
 
+// class B{
+//     void test(){
+//         System.out.println("Hey");
+//     }
+// }
 
+// class C extends A{
+
+// }
+
+// // Not supported by JAVA
+
+// class LPU{
+//     public static void main(String args[]){
+
+//     }
+// }
 
 
 
