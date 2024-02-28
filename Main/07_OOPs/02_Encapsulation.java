@@ -39,4 +39,4 @@ class LPU{
     }
 }
 
-//Encapsulation is a process of wrapping data members and member functions together in a single unit
+//Encapsulation is a process of wrapping data members and member functions together in a single unit 

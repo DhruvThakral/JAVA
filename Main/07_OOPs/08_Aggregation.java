@@ -104,7 +104,7 @@ class Bicycle extends Vehicle {
     }
 }
 
- class LPU {
+class LPU {
     public static void main(String[] args) {
         Car car = new Car("1", 150.0, 4);
         Truck truck = new Truck("2", 100.0, 10.0);
