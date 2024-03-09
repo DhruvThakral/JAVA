@@ -40,3 +40,10 @@
 
 
 // Basics Problems are like : Armstrong , prime numbers , fibonacci series , perfect numbers, palindrome
+
+
+
+
+
+
+
