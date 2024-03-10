@@ -23,7 +23,3 @@ class LPU{
         obj1.test2();
     }
 }
-
-
-
-

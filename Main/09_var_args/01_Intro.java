@@ -17,14 +17,3 @@ class LPU{
         System.out.println(obj1.add(2,3,4,5)); 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
