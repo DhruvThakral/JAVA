@@ -28,5 +28,4 @@ class LPU{
     }
 }
 
-
 // instanceof operator is used to check whether an object is an instance of a particular class or not.
