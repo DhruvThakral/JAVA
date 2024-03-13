@@ -81,4 +81,3 @@ class LPU {
         System.out.println("Late Fee for NonFiction book: $" + nonFictionBook.calculateLateFees(3));
     }
 }
-

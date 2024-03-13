@@ -21,4 +21,3 @@ class LPU{
        new Calculate(5).perimeter(100);
     }
 }
-
