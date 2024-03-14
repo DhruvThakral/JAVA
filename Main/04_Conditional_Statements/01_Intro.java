@@ -43,6 +43,3 @@ class LPU {
         System.out.println(output);
     }
 }
-
-
-
