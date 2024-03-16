@@ -162,6 +162,3 @@ class LPU {
         System.out.println("Area of Triangle: " + triangle.calculateArea());
     }
 }
-
-
-

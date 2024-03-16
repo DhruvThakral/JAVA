@@ -117,7 +117,6 @@
 // }
 
 
-
 // There is only one class being inherited from parent class then it is called the single inheritance
 // If one class is being inherited from one class which is also being inherited from another class then it is called Multi level inheritance
 //For a single parent there are multiple childs , this kind of inheritance is called hierarichal inheritance

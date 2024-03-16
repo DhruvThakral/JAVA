@@ -69,10 +69,6 @@ class LPU{
 
 
 
-
-
-
-
 //  Create a Java program to model a simple car rental system. The system should allow users to rent a car and display the details of rented cars.
 
 // Your task is to implement a Car class with the following specifications:

@@ -29,4 +29,3 @@ class LPU{
         A a1 = new B();
     }
 }
-
