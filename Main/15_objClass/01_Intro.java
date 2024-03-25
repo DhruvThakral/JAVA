@@ -42,3 +42,8 @@ class LPU{
         System.out.println(obj1.equals(obj2));
     }
 }
+
+
+
+
+
