@@ -31,3 +31,4 @@ class LPU{
         obj.output();
     }
 }
+
