@@ -124,29 +124,56 @@
 //     }
 // }
 
-class Base {
-    Base(){
-        System.out.println("I am a base class constructor");
-    }
-    Base(int x){
-        System.out.println("I am a base class constructor "+ x);
-    }
-}
+// class Base {
+//     Base(){
+//         System.out.println("I am a base class constructor");
+//     }
+//     Base(int x){
+//         System.out.println("I am a base class constructor "+ x);
+//     }
+// }
 
-class Derived extends Base {
-    Derived(){
-        super(56);
-        System.out.println("I am a derived class constructor");
-    }
-    Derived(int x , int y){
-        // super(x);
-        System.out.println("I am a derived class constructor "+x+" "+y);
-    }
-}
+// class Derived extends Base {
+//     Derived(){
+//         super(56);
+//         System.out.println("I am a derived class constructor");
+//     }
+//     Derived(int x , int y){
+//         // super(x);
+//         System.out.println("I am a derived class constructor "+x+" "+y);
+//     }
+// }
 
+// class LPU{
+//     public static void main(String args[]){
+//         Derived A = new Derived( );
+
+//     }
+// }
+
+// import java.util.Date;
+// class LPU{
+//     public static void main(String args[]){
+//         Date obj = new Date();
+//         System.out.println(obj.getYear());
+//     }
+// }
+
+import java.util.Scanner;
 class LPU{
     public static void main(String args[]){
-        Derived A = new Derived( );
+        Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter 1st number: ");
+        // int a = sc.nextInt();
 
+        // System.out.println("Enter string: ");
+        // String b = sc.nextLine();
+        // System.out.println(b);
+
+        // System.out.println("Enter char: ");
+        // char ch = sc.next().charAt(0);
+        // System.out.println(ch);
+
+        
     }
 }

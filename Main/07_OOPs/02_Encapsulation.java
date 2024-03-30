@@ -7,7 +7,6 @@ class Account{
     public int getAccBalance(){
         return accBalance;
     }
-
     public void setAccBalance(int val){
         accBalance = val;
     }
