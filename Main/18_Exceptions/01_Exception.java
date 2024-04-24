@@ -34,3 +34,15 @@ class LPU{
 //try block is used to enclose the code that might throw an exception. If an exceptions occurs at any particular statement in try block, rest of the block code will not execute.
 
 //catch is used to handle the exception by declaring the type of exception within the parameter.
+
+
+
+
+
+
+
+
+
+
+
+ 
