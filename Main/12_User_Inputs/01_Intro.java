@@ -11,4 +11,3 @@ class LPU{
         System.out.println("Name is : " + input1);
     }
 }
-

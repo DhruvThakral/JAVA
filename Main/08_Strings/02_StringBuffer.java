@@ -17,5 +17,3 @@ class LPU{
         System.out.println(obj1);
     }
 }
-
-
